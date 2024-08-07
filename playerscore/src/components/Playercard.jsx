@@ -3,6 +3,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Playercard = ({ players = [] }) => {
+    console.log('Playercard received players:', players); // Log the players prop
+
   if (!players.length) {
     return <div>No players found</div>;
   }

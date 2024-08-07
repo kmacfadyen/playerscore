@@ -52,9 +52,9 @@ function App() {
         <Playercard players={filteredPlayers} /> {/* Pass filtered players */}
       </div>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        {/* <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
-        </button>
+        </button> */}
       </div>
     </>
   );
